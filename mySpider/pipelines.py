@@ -7,6 +7,7 @@
 from pymongo import MongoClient
 
 
+
 class MyspiderPipeline(object):
     collection_name = 'girl'
 
