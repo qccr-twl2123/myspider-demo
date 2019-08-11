@@ -9,7 +9,7 @@ from pymongo import MongoClient
 
 
 class MyspiderPipeline(object):
-    collection_name = 'girl'
+    collection_name = 'girl-basic'
 
     def __init__(self, mongo_host, mongo_port, mongo_database):
         self.mongo_host = mongo_host
